@@ -1,0 +1,27 @@
+# Segredos e configurações locais
+.env
+!.env.example
+
+# Ambientes e caches Python
+.venv/
+.venv_*/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Dados operacionais e arquivos enviados
+dados/
+uploads/
+*.xlsx
+*.xlsm
+*.xls
+*.csv
+*.tmp
+
+# Tokens, logs e arquivos locais
+*.log
+token_cache*
+session*
+
+# O diretório pode ser recriado pelo script de preparação
+pacotes_offline/
